@@ -91,5 +91,103 @@ nav .menu a{
     margin-bottom: 16px;
     
 }
+.feature{
+    padding-top: 50px;
+    text-align:  center;
+}
+.feature h2{
+    font-size: 48px;
+    margin-bottom: 7px;
+}
+.feature p{
+    font-size: 15px;
+    color: #627382;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 44px;
+}
+.note-section{
+    display: flex;
+    gap: 24px;
+}
 
+.note-card{
+    padding: 69.5px 24px 69.5px 24px;
+    max-width: 322px;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    margin-bottom: 16px;
+}
+.icon-wrapper{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0 auto 24px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.icon-wrapper img{
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+.note-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.note-card p{
+    font-size: 16px;
+    color: #627382;
+}
+.brain-section{
+    display: flex;
+}
+.brain-section .knowledge-icon img{
+    margin-top: 120px;
+    max-height: 600;
+    max-width: 600;
+    display:block;
+    
+}
+.brain-content{
+    max-width: 760px;
+    margin-top: 222px;
+    
+}
+.brain-content p{
+    font-size: 16px;
+    color: #627382;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+    max-width: 700px;
+}
+
+.brain-content h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.clr-different{
+    font-size: 16px;
+    color: #469165;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.checklist{
+    /* display: flex; */
+}
+.icon-text{
+    /* display: inline-flex; */
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+    
+}
